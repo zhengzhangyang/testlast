@@ -11,7 +11,7 @@ public class E {
         for (int i = 0; i < receiptArr.length; i++) {
             System.out.println(receiptArr[i]);
         }*/
-        String pdfFileName = "15000100205824_20201204_3240792011200900495863_C_LCS_000001_001.pdf";
+        String pdfFileName = "1521609_20201204_3240792011200900495863_C_LCS_000001_001.pdf";
         // 账号_日期_流水号_借贷_摘要
         String istNbr = "";
         String[] tempArr = pdfFileName.split("_");
