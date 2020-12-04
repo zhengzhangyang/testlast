@@ -1,6 +1,4 @@
 import java.io.UnsupportedEncodingException;
-import java.math.BigDecimal;
-import java.util.Arrays;
 
 /**
  * @author 郑章洋
@@ -8,7 +6,11 @@ import java.util.Arrays;
  */
 public class Main {
     public static void main(String[] args) throws UnsupportedEncodingException {
-        System.out.println(12345+5432l);
+        StringBuilder reqContext1 = new StringBuilder("hello").insert(0, String.format("%010d", 111) + "00");
+        StringBuilder reqContext = new StringBuilder("hello").insert(0, String.format("%-10d", 111) + "00");
+
+        System.out.println(reqContext1);
+        System.out.println(reqContext);
     }
     public static boolean isOdd(int i){
         return (i & 1) != 0;
