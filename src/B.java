@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 public class B {
     public static void main(String[] args) {
 
-        String oppNm = "星期一a3423是";
+        String oppNm = "星期二a3423是";
 
         try {
             int num = getChineseSize(oppNm);
